@@ -102,7 +102,7 @@ class BioCXMLDocumentWriter:
     Writer for the BioC XML format, one document at a time.
     """
 
-    def __init__(self, file, encoding='utf8', standalone=True):
+    def __init__(self, file, encoding='utf-8', standalone=True):
         self.encoding = encoding
         self.standalone = standalone
         self.file = file
